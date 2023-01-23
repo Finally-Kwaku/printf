@@ -128,7 +128,7 @@ int flags, int width, int precision, int size)
 	while (num > 0)
 	{
 		buffer[i--] = (num % 10) + '0';
-		num /= 0;
+		num /= 10;
 	}
 
 	i++;
