@@ -1,6 +1,4 @@
-#include "main.h"
-
-/* Author: Seiyefa Abornyuie */
+nclude "main.h"
 
 /****************** PRINT POINTER ******************/
 /**
