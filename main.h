@@ -18,7 +18,6 @@
 #define S_LONG 2
 #define S_SHORT 1
 
-/* author: Seiyefa */
 
 /**
 * struct fmt - Struct op
