@@ -52,7 +52,7 @@ format is a character string. The format string is composed of zero or more dire
 	* b: the unsigned int argument is converted to binary
 
 
-4. What one has not experienced, one will never understand in print
+`3. What one has not experienced, one will never understand in print`
 ---
 
 - Handle the following conversion specifiers:
@@ -68,11 +68,18 @@ format is a character string. The format string is composed of zero or more dire
 - You don’t have to handle the length modifiers
 
 
-5. Nothing in fine print is ever good news
+`4. Nothing in fine print is ever good news`
 ---
 
 - Use a local buffer of 1024 chars in order to call write as little as possible.
 
+
+.5. My weakness is wearing too much leopard print
+
++ Handle the following custom conversion specifier:
+
+	* S : prints the string. 
+	* Non printable characters (0 < ASCII value < 32 or >= 127) are pr inted this way: \x, followed by the ASCII code value in hexadeci mal (upper case - always 2 characters
 
 6. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print
 ---
