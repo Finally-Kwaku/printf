@@ -75,14 +75,15 @@ format is a character string. The format string is composed of zero or more dire
 
 
 `5. My weakness is wearing too much leopard print`
-===================================================
+----
 
 - Handle the following custom conversion specifier:
 
 	* S : prints the string. 
 	* Non printable characters (0 < ASCII value < 32 or >= 127) are pr inted this way: \x, followed by the ASCII code value in hexadeci mal (upper case - always 2 characters
 
-6. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print
+
+`6. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print`
 ---
 
 - Handle the following conversion specifier: p.
@@ -92,37 +93,68 @@ format is a character string. The format string is composed of zero or more dire
 	* You don’t have to handle precision
 	* You don’t have to handle the length modifiers
 
-7. My weakness is wearing too much leopard print
+
+`7. The big print gives and the small print takes away`
 ---
-+ Handle the following custom conversion specifier:
 
-	* S : prints the string. Non printable characters (0 < ASCII value < 32 or >= 127) are pr inted this way: \x, followed by the ASCII code value in hexadeci mal (upper case - always 2 characters
+- Handle the following flag characters for non-custom conversion specifiers:
 
-8. The big print gives and the small print takes away
-Handle the following flag characters for non-custom conversion specifiers:
+	* +
+	* space
+	* #
 
-space
-9. Sarcasm is lost in print
-Handle the following length modifiers for non-custom conversion specifiers:
 
-l
-h
-Conversion specifiers to handle: d, i, u, o, x, X
-10. Print some money and give it to us for the rain forests
-Handle the field width for non-custom conversion specifiers.
-11. The negative is the equivalent of the composer's score, and the print the performance
-Handle the precision for non-custom conversion specifiers.
-12. It's depressing when you're still around and your albums are out of prin
-Handle the 0 flag character for non-custom conversion specifiers.
-13. Every time that I wanted to give up, if I saw an interesting textile, print what ever, suddenly I would see a collection
-Handle the - flag character for non-custom conversion specifiers.
-14. Print is the sharpest and the strongest weapon of our party
-Handle the following custom conversion specifier:
+`8. Sarcasm is lost in print`
+---
 
-r : prints the reversed string
-15. The flood of print has turned reading into a process of gulping rather than savoring
-Handle the following custom conversion specifier:
+- Handle the following length modifiers for non-custom conversion specifiers:
 
-R: prints the rot13'ed string
-16. *
-All the above options work well together.
+	* l
+	* h
+- Conversion specifiers to handle: d, i, u, o, x, X
+
+
+`9. Print some money and give it to us for the rain forests`
+----------
+
+- Handle the field width for non-custom conversion specifiers.
+
+
+`10. The negative is the equivalent of the composer's score, and the print the performance`
+----
+
+- Handle the precision for non-custom conversion specifiers.
+
+
+`11. It's depressing when you're still around and your albums are out of print`
+-----
+
+- Handle the 0 flag character for non-custom conversion specifiers.
+
+
+`12. Every time that I wanted to give up, if I saw an interesting textile, print what ever, suddenly I would see a collection`
+--------
+
+- Handle the - flag character for non-custom conversion specifiers.
+
+
+`13. Print is the sharpest and the strongest weapon of our party`
+-------------
+
+- Handle the following custom conversion specifier:
+
+	* r : prints the reversed string
+
+
+`14. The flood of print has turned reading into a process of gulping rather than savoring`
+--------
+
+- Handle the following custom conversion specifier:
+
+	* R: prints the rot13'ed string
+
+
+`15. *`
+------
+
+- All the above options work well together.
