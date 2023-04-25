@@ -74,9 +74,10 @@ format is a character string. The format string is composed of zero or more dire
 - Use a local buffer of 1024 chars in order to call write as little as possible.
 
 
-.5. My weakness is wearing too much leopard print
+`5. My weakness is wearing too much leopard print`
+===================================================
 
-+ Handle the following custom conversion specifier:
+- Handle the following custom conversion specifier:
 
 	* S : prints the string. 
 	* Non printable characters (0 < ASCII value < 32 or >= 127) are pr inted this way: \x, followed by the ASCII code value in hexadeci mal (upper case - always 2 characters
