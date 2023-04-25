@@ -1,5 +1,5 @@
 `0x11. C - printf`
-==================
+------------------
 
 Implement printf
 ================
@@ -31,10 +31,10 @@ format is a character string. The format string is composed of zero or more dire
 - You don’t have to handle the length modifiers
 
 
-'1. Education is when you read the fine print. Experience is what you get if you don't.
+`1. Education is when you read the fine print. Experience is what you get if you don't.`
 =======================================================================================
 
--Handle the following conversion specifiers:
+- Handle the following conversion specifiers:
 
 	* d
 	* i
